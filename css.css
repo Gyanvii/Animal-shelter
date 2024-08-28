@@ -1,0 +1,118 @@
+body{ margin:0px; padding:0px; background: url(../images/bg.png); font-family:Verdana; font-family:12px; font-weight:normal; color:#656565;}
+.clr{ clear:both;}
+img{ border:none;}
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+a { text-decoration:none;
+	 -webkit-transition: color 0.3s ease-out;
+	 -moz-transition: color 0.3s ease-out; 
+	 -ms-transition: color 0.3s ease-out; 
+	 -o-transition: color 0.3s ease-out;
+	 transition: color 0.3s ease-out; 
+	 }
+h2{ font-family:Georgia; font-size:22px; font-weight:normal; color:#8a5800; margin:0px; padding:0 10px 0 0 ; border-bottom:solid 1px #e9e9e9;}
+p{ font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#656565; line-height:21px; margin:5px 0 0 0; padding:0px; text-align:justify; font-weight:inherit;}
+.warrper{ width:989px; margin:0px auto;}
+.top-bg{ background:url(../images/top-bg.png) no-repeat; height:205px; float:left; width:989px; }
+.top{ float:left; margin:0px; padding:0px;}
+.logo{ float:left; margin:0px; padding:0px; width:740px;}
+.top-text{ margin:0 0 0 600px; position:absolute; float:right;}
+.top-text ul{ margin:5px 0 0 0; padding:0px; list-style:none;}
+.top-text ul li{ display:inline; margin:0px; padding:0px 6px; border-right:solid 1px #087a94; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;}
+.top-text ul li a{ color:#087a94; text-decoration:none;}
+.top-text ul li a:hover{ color:#462712;}
+.top-text ul li.last{ border-right:none;}
+.menu{ margin:0px 0 0 0 ; padding:0px;}
+.menu ul{ margin:0px; padding:0px; list-style:none;}
+.menu ul li{ display:inline; margin:0px;  font-family:Verdana, Geneva, sans-serif; font-size:13px; font-weight:normal; line-height:38px;}
+.menu ul li a{ color:#fff; text-decoration:none; padding:8px 13px 14px 12px }
+.menu ul li a:hover{ color:#fff; background:#462712; border-top:solid 2px #ea670e;}
+.menu ul li.active a{ color:#fff; background:#462712; border-top:solid 2px #ea670e;}
+.main{ background:#FFF; margin:0px; padding:0px; width:989px; float:left; }
+.middle{ width:947px; margin:0 auto;}
+.banner{ margin:0px; padding:15px 0px 0 0;}
+.part{ float:left; margin:25px 0 0 0; padding:0px;}
+.part-left{ margin:0px; padding:0px; float:left; width:373px; margin-right:20px;}
+.box{ float:left; width:180px; margin-right:13px;}
+.box p{ margin:5px 0 0 0; padding:0px; text-align:justify; font-size:12px ; font-family:Verdana, Geneva, sans-serif; line-height:21px; color:#656565;}
+.box h3{ background:#542f14; height:31px; border-top:solid 2px #ef7204; margin:0px; padding:0px; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; text-transform:uppercase; color:#fff; font-weight:normal; line-height:28px;}
+.view-all{ float:right; margin:5px; padding:0px;}
+.view-all a{ color:#542f14; text-decoration:none; background:url(../images/arewo.jpg) right no-repeat; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; padding-right:12px;}
+.view-all a:hover{ color:#a04d03; text-decoration:none;}
+
+.box2{ float:left; width:180px;}
+.box2 p{ margin:5px 0 0 0; padding:0px; text-align:justify; font-size:12px ; font-family:Verdana, Geneva, sans-serif; line-height:21px; color:#656565;}
+.box2 h3{ background:#542f14; height:31px; border-top:solid 2px #ef7204; margin:0px; padding:0px; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; text-transform:uppercase; color:#fff; font-weight:normal; line-height:28px;}
+
+.box3{ float:left; width:180px; margin:10px 0 0px 0;  margin-right:13px;}
+.box3 p{ margin:5px 0 0 0; padding:0px; text-align:justify; font-size:12px ; font-family:Verdana, Geneva, sans-serif; line-height:21px; color:#656565;}
+.box3 h3{ background:#542f14; height:31px; border-top:solid 2px #ef7204; margin:0px; padding:0px; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; text-transform:uppercase; color:#fff; font-weight:normal; line-height:28px;}
+
+.box4{ float:left; width:180px; margin:10px 0 0 0; }
+.box4 p{ margin:5px 0 0 0; padding:0px; text-align:justify; font-size:12px ; font-family:Verdana, Geneva, sans-serif; line-height:21px; color:#656565;}
+.box4 h3{ background:#542f14; height:31px; border-top:solid 2px #ef7204; margin:0px; padding:0px; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; text-transform:uppercase; color:#fff; font-weight:normal; line-height:28px;}
+
+.welcome{ float:left; width:553px;}
+.wel{ float:left; margin:0px; padding:0px; width:553px;}
+.faclites{ margin:60px 0 0 0; padding:0px; background:url(../images/lastbg.jpg) no-repeat; width:255px; height:208px; margin-right:40px; float:left;}
+.faclites h2{ margin:10px 0 0 0; padding:0px;}
+.faclites-on{ padding:10px 0 0 0; margin:0px 0 0 45px; width:200px; float:left;}
+.faclites-on ul{ margin:10px 0 0 0; padding:0px; list-style:none;}
+.faclites-on ul li{ margin:0px; padding:0px 0 0 15px; background: url(../images/rentangle.jpg) no-repeat left; line-height:26px; font-size:11px; font-weight:bold; color:#656565;}
+.faclites-on ul li a{color:#656565; text-decoration:none;}
+.faclites-on ul li a:hover{ color:#542f14; text-decoration:none;}
+.gowshala{margin:60px 0 0 0; padding:0px; background:url(../images/lastbg.jpg) no-repeat; width:255px; height:208px; float:left;}
+.gows{padding:10px 0 0 0; margin:0px 0 0 45px; width:190px; float:left;}
+.gows h2{ margin:10px 0 0 0; padding:0px;}
+.footer{ float:left; margin:10px 0px 30px 0; padding:0px; width:989px;}
+.footer ul{ margin:0px; padding:0px; line-height:normal;}
+.footer ul li{ display:inline; font-family: Verdana, Geneva, sans-serif; font-size:12px; color:#505050;  font-weight:normal;}
+.footer ul li a{color:#505050; text-decoration:none; padding:0 12px;}
+.footer ul li a:hover{ color:#542f14; text-decoration:underline;}
+.copy{ margin:5px 0 0 0px;  float:right; font-family: Verdana, Geneva, sans-serif; font-size:12px; color:#505050;  font-weight:normal; color:#505050;}
+.copy a{color:#505050; text-decoration:none; font-family: Verdana, Geneva, sans-serif; font-size:12px; color:#505050;  font-weight:normal;}
+.copy a:hover{ color:#542f14; text-decoration:underline;}
+.inner-page{float:left; margin:0px 0 0 0; padding:25px 0 0 0;}
+.inner-left{ float:left; width:238px; margin-right:20px; margin-bottom:20px;}
+.inner-main{ float:left; margin:0px; padding:0px; width:680px;}
+.inner-main img{ float:left; margin:10px;}
+.form{ margin:0px; padding:0px; width:95%; border:solid 1px #ccc; height:22px; font-family:Verdana, Geneva, sans-serif; font-size:12px; font-style:italic; color:#666; font-weight:normal;}
+.checkbox{  margin:0px 5px 10px 15px; padding:0px; width:100%; float:left;}
+.midle-part{ float:left; width:553px; margin:30px 0 0 0; padding:0px;}
+.services{ margin:0px 30px 0 0; padding:0px; width:258px; float:left;}
+.services ul{ margin:15px; padding:0; list-style:none;}
+.services ul li{ margin:0px; padding:0px 0 0 0; background:url(../images/arewo.jpg) no-repeat left; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style: italic; font-weight:normal; padding-left:10px; color:#656565; line-height:24px;}
+.services ul li a{ color:#656565; text-decoration:none;}
+.services ul li a:hover{ color:#542f14; text-decoration:underline;}
+.donate{ float:left; margin:0px; padding:0px; width:265px;}
+.donate ul{ margin:15px; padding:0; list-style:none;}
+.donate ul li{ margin:0px; padding:0px 0 0 0; background:url(../images/arewo.jpg) no-repeat left; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-style: italic; font-weight:normal; padding-left:10px; color:#656565; line-height:24px;}
+.donate ul li a{ color:#656565; text-decoration:none;}
+.donate ul li a:hover{ color:#542f14; text-decoration:underline;}
+.donate ul li.active a{color:#542f14; text-decoration:none;}
+.gallery{ float:left; margin:20px 0 0 0;}
+.photogallery{ width:180px; margin-right:35px; float:left; margin-bottom:30px;}
+.photogallery h3{ background:#542f14; height:31px; border-top:solid 2px #ef7204; margin:0px; padding:0px; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:14px; text-transform:uppercase; color:#fff; font-weight:normal; line-height:28px;}
+.photogallery img{ margin:0px; padding:0px; width:180px;}
+.pageination{ clear:both; text-align:center; margin:30px 0 0 0;}
+.pageination ul{ margin:0; padding:0;}
+.pageination ul li{ margin:0; padding:0; list-style:none; display:inline-block;}
+
+.pageination ul li a{ border:solid 1px #017d87;padding:4px 13px; margin:0 5px; color:#000; font-size:12px; font-weight:bold;
+}
+.pageination ul li a:hover{ background:none; color:#017d87}
+.pageination ul li.active a{color:#017d87}
+.m{-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 10px; margin-left:5px;}
+.m:hover{-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius:10px; cursor:pointer; }
+.bank{ margin:0; padding:0;}
+.bank p{ font-size:16px; color:#272fdc;}

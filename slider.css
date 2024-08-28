@@ -1,0 +1,72 @@
+pre{
+	display: block;
+	padding: 0px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 20px;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	background-color: whiteSmoke;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+
+#banner-fade,
+#banner-slide{
+	width:903px; height:276px; z-index:1
+}
+
+ul.bjqs-controls.v-centered li a{
+	display:block;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+	background:#000;
+	color:#fff;
+}
+
+ol.bjqs-markers li a{
+
+	background:#fff;
+	color:#fff;
+	text-decoration: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	background: #fff;
+	display:none;
+}
+
+p.bjqs-caption{
+	background:url(../images/bnr-discribe-bg.png) repeat;
+	color:#f3f3f3;
+}
+
+
+ul.bjqs{position:relative; list-style:none; padding:0px 0 0 0px; margin:0; overflow:hidden; display:none; height:276px; width:903px; z-index:9999;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{
+	position:absolute;
+}
+ul.bjqs-controls.v-centered li.bjqs-next a{ width:39px; height:57px; right:-16px; background:url(../images/next.png) no-repeat right top; display:none; }
+ul.bjqs-controls.v-centered li.bjqs-next a:hover{ width:39px; height:57px; right:-16px; background:url(../images/next-hover.png) no-repeat right top; display:none; }
+
+ul.bjqs-controls.v-centered li.bjqs-prev a{ width:39px; height:57px; left:-18px; background:url(../images/prew.png) no-repeat left top; display:none; }
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover{ width:39px; height:57px; left:-18px; background:url(../images/prew-hover.png) no-repeat left top; display:none; }
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block; font-size:18px; width:960px; padding:10px; margin:0; position:absolute; z-index:10000; bottom:0;}
+.bjqs-markers h-centered{ display:none;}
